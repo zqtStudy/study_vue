@@ -1,6 +1,5 @@
-import Vue from 'vue'
 import VueRouter from 'vue-router'
-Vue.use(VueRouter)
+
 
 import homeContent from './components/tabbar/home.vue'
 import memberContent from './components/tabbar/member.vue'

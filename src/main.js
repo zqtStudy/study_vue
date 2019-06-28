@@ -1,8 +1,15 @@
 import Vue from 'vue'
+import VueRouter from 'vue-router'
+Vue.use(VueRouter)
+
 
 import MintUI from 'mint-ui'
 import 'mint-ui/lib/style.css'
 Vue.use(MintUI)
+
+
+import VueResource from 'vue-resource'
+Vue.use(VueResource)
 
 import app from './app.vue'
 import router from './router.js'

@@ -4,7 +4,9 @@
     <mt-header fixed title="固定在顶部"></mt-header>
 
     <main>
-        <router-view></router-view>
+      <transition>
+            <router-view></router-view>
+      </transition>
     </main>
 
   
@@ -37,4 +39,16 @@ export default {};
 </script>
 
 <style scoped>
+    .v-enter {
+        transform: translateX(100%)
+    }
+    .v-leave-to {
+        transform: translateX(-100%);
+        position: absolute;
+    }
+    
+    .v-enter-active,
+    .v-leave-active {
+        transition: all .4s ease;
+    }
 </style>
