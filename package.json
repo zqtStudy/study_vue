@@ -27,6 +27,6 @@
   "dependencies": {
     "mint-ui": "^2.2.13",
     "vue": "^2.6.10",
-    "vue-loader": "^15.7.0"
+    "vue-router": "^3.0.6"
   }
 }
